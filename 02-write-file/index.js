@@ -4,7 +4,7 @@ const readline = require('readline');
 const { stdin, stdout } = require('process');
 const fileName = 'test.txt';
 const greeting = 'Welcome,friend! Type something...';
-const farewell = 'Good buy!';
+const farewell = 'Goodbye!';
 const keyWord = 'exit';
 
 const filePath = path.resolve(__dirname, fileName);
